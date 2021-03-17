@@ -1,0 +1,10 @@
+﻿const CONSTANTS = {};
+CONSTANTS.ENDPOINT = {};
+
+CONSTANTS.PORT = process.env.PORT || '3001';
+CONSTANTS.ENDPOINT.REGISTER = '/register';
+CONSTANTS.ENDPOINT.LOGIN = '/login';
+CONSTANTS.ENDPOINT.GRID = '/grid';
+CONSTANTS.ENDPOINT.LOGOUT = '/logout';
+
+module.exports = CONSTANTS;
